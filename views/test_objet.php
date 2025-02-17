@@ -27,4 +27,5 @@ $moto->setNomVehicule('Suzuki')->setNbrRoue(2)->setVitesse(280);
     <p><?= $voiture->boost() ?></p>
     <p>Avant Boost - <?= $moto->getNomVehicule() ?> = <?= $moto->getVitesse() ?>!</p>
     <p><?= $moto->boost() ?></p>
+    <h3>Exercise 2 - Bonus</h3>
     <p>The Fastest between <?= $voiture->getNomVehicule() ?> and <?= $moto->getNomVehicule() ?> is <?= $moto->plusRapide($voiture) ?></p>

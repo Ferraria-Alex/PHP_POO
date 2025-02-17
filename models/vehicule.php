@@ -49,7 +49,7 @@ class Vehicule{
         echo 'Je file maintenant à '.$this->getVitesse().' km/h !';
     }
 
-    public function plusRapide(?Vehicule $vehicule2):string{
+    public function plusRapide(?Vehicule $vehicule2):?string{
         return $this->vitesse > $vehicule2->getVitesse() ? $this->nomVehicule : $vehicule2->getNomVehicule();
     }
 }
